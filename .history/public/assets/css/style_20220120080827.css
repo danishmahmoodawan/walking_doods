@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'AgletSans-Bold';
+    src: url('../fonts/AgletSans-Bold.otf');
+}
+
+.first_section{
+    background-image: url('../images/main_banner.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: black; */
+    height: 100vh;
+}
+.second_section{
+    margin-top: -80px;
+    padding-bottom: 60px;
+}
+img.image_img{
+    margin-top: -80px;
+    max-width: 230px;
+}
+img.info_img{
+    max-width: 160px;
+}
+.adjust_row .left_cols{
+    padding-right: 0px !important;
+}
+
+.adjust_row .right_cols{
+padding-left: 0px !important;  
+}
+/* img.group_23{
+    max-width: 360px;
+} */
+img.image_2 , img.image_3{
+    max-width: 168px;
+}
+.second_section .second_con{
+    border-radius: 50px;
+    background: #EAE3E1;
+    padding: 20px;
+    margin-top: -50px;
+}
+.second_con .row{
+    align-items: center;
+}
+.third_section{
+    background-image: url('../images/group_26.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 30px 0px;
+    text-align: center;
+}
+.third_section .third_continer{
+    max-width: 500px;
+    padding-top: 25px;
+}
+.third_section .row{
+    align-items: center;
+}
+.third_section h1{
+    font-family: AgletSans-Bold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 135px;
+    text-align: center;
+    border-radius: 75px;
+    background: #989AFF;
+    color: #FFF;
+}
+.forth_section{
+    margin-top: -50px;
+}
+.forth_section img.roadmap{
+    padding-bottom: 30px;
+    max-width: 500px;
+}
+.forth_section .left_col{
+    background: #EAE3E1;
+    border-radius: 40px;
+    padding: 20px;
+    z-index: -9;
+}
+.sixth_section .left_cols{
+    background: #fff;
+    border-radius: 40px;
+    padding: 20px;
+}
+.sixth_section{
+    margin-top: -5%;
+}
+.right_col{
+    padding-left: 40px;
+}
+
+.right_col h2{
+    background: #989AFF;
+    color: #FFF;
+    font-family: AgletSans-Bold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 150px;
+    border-radius: 80px;
+}
+.right_col .row{
+    padding: 10px 0
+}
+.roadmap23{
+    max-width: 400px;
+    margin-top: -140px;
+    z-index: -9;
+}
+.head_faq{
+    background: #C4C4C4;
+    border-radius: 20px;
+    padding: 2% 0% 5% 3%;
+    margin: 2% 6% 3% 1%;
+}
+.footer_sec{
+    background: #C4C4C4;
+    height: 150px;
+}
+.footer_img{
+margin: -102px;
+width: 100%;
+}
+.footer_img2{
+    width: 95%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+.parafaq{
+    margin: 2% 4% 2% 0;
+}
+.head_faq_right{
+    background: #989AFF;
+    mix-blend-mode: normal;
+    padding: 2% 0% 5% 3%;
+    margin: 2% 2% 3% 0;
+    border-radius: 0px 20px 20px 0px;
+}
+.fifth_section{
+    background-image: url('../images/group_27.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: -200px;
+}
+.sixth_section{
+background: #B4FFC7;
+margin-top: -20%;
+    padding-bottom: 20%;
+}
+img.faq{
+    max-width: 300px;
+    padding-top: 20%;
+}
+@media only screen and (min-width: 1024px) {
+    .first_section{
+     background-size: cover;
+     width: 100%;
+     height: 80vh;
+    }
+    .walking_doods{
+        width: 90%;
+    }
+    img.image_2, img.image_3{
+        width: 120px;
+    }
+    .third_section{
+
+    }
+} 
+@media only screen and (max-width: 1024px) and (min-width:768px)  {
+   .first_section{
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+   }
+   .head_faq_right {
+    margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+}
+   .second_section{
+       margin-top: 25px;
+   }
+   .third_section, .fifth_section{
+    background-size: cover;
+    width: 100%;
+    height: 318px;
+   }
+   .fifth_section{
+     margin-top:  -103px;
+   }
+   .footer_img {
+    margin-top: -102px;
+    width: 350px;
+   }
+   .sixth_section{
+       margin-top: -4%;
+   }
+   .second_section .second_con{
+       margin-top: 26px;
+   }
+    img.image_img{
+        max-width: 130px;
+        margin-top: -58px;
+    }
+    .walking_doods{
+        max-width: 520px;
+    }
+    img.info_img {
+        max-width: 130px;
+    }
+    img.image_2, img.image_3 {
+        max-width: 100px;
+    }
+    img.mint{
+        max-width: 160px;
+    }
+    .forth_section {
+        margin-top: 0px;
+    }
+    .third_section .third_continer img{
+        max-width: 65px;
+    }
+    .third_section h1{
+        font-size: 95px;
+        line-height: 128px;
+    }
+    .forth_section img.roadmap {
+        max-width: 345px;
+margin-top: 25px;
+    }
+    .right_col h2 {
+        font-size: 28px;
+        line-height: 82px;
+    }
+    .right_col{
+        padding-top: 30px;
+    }
+    .roadmap23 {
+        max-width: 250px;
+        margin-top: -50px;
+    }
+    img.faq {
+        max-width: 175px;
+        padding-top: 122px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .first_section{
+        background-size: contain;
+        height: 325px;
+    }
+    .adjust_row{
+padding: 15px;
+    }
+    .second_section{
+        text-align: center;
+    }
+    img.image_img {
+        margin-top: 0px;
+        max-width: 160px;
+    }
+    .walking_doods{
+        max-width: 300px;
+        padding: 30px 0;
+    }
+    .second_section .second_con {
+        margin-top: 0px;
+        width: 90%;
+    }
+    .forth_section .row{
+width: 98%;
+    margin: 0 auto
+    }
+    img.info_img {
+        max-width: 120px;
+        padding: 20px 0;
+    }
+    .third_section {
+        background-size: contain;
+        height: 300px;
+    }
+    .fifth_section{
+        background-size: contain;
+        height: 200px; 
+        margin-top: -60px;
+    }
+   .sixth_section img {
+    width: 100%;
+    height: 160px;
+    }
+    .head_faq{
+        border-radius: 10px;
+        width: fit-content;
+        padding: 2% 3% 5% 3%;
+        margin: 0 auto;
+    }
+    .third_section .third_continer img{
+        max-width: 45px;
+    }
+    .third_section img.mint{
+        max-width: 150px;
+    }
+    .third_section h1{
+        font-size: 68px;
+        line-height: 82px;
+    }
+    .forth_section{
+        text-align: center;
+    }
+    .forth_section img.roadmap{
+        max-width: 260px;
+    }
+    .right_col{
+        padding-left: 15px;
+    }
+    .right_col .row{
+        align-items: center;
+    }
+    .right_col h2{
+        font-size: 26px;
+        line-height: 80px;
+    }
+    .forth_section .right_col p{
+        text-align: left;
+        margin: 0;
+    }
+    .roadmap23 {
+        max-width: 180px;
+        margin-top: 0px;
+        height: 180px;
+    }
+    img.image_2, img.image_3 {
+        max-width: 90px;
+    }
+    img.faq{
+        max-width: 150px;
+        padding-top: 8%;
+    }
+    .head_faq_right {
+        margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+    }
+ 
+    .footer_sec{
+    height: 80px;
+    }
+    .footer_img{
+        width: 233px;
+            margin-top: -141px;
+            margin-left: -33px;
+    }
+    .footer_img2{
+        width: 100%;
+        padding: 14% 0% 0%;
+    }
+  }
+  
